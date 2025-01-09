@@ -1,0 +1,58 @@
+id: 'c5ad0099-4e08-4c70-87bb-755b7c7e8b2c'
+name: 'BFM_SCHEMA_VERSION'
+modelObjectTypeId: '95e356a3-8e38-4e44-a496-abb805f556b7'
+terms:
+  - id: 'd425f6ed-df66-4484-8ff7-8f2fbcca2741'
+    name: 'VERSION_NUMBER'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '14406676-7526-4be9-a99c-dcf18f59b26f'
+    name: 'VERSION_DATE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: '228f5187-562a-4f20-9e7f-d109156e5dc9'
+  - id: '7d65cf3d-067e-4c77-95ad-1b91752c5a76'
+    name: 'CHANGES'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: 'cc1b3984-d82e-41b3-8775-62d88b7d276b'
+    name: 'REMARKS'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: 'a0451ecd-d36f-4901-b478-8ec54ecb01be'
+    name: 'dt'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+tags:
+  - '$discovery#id#54e63d5d-fd2d-466a-81c4-a3df48eba553'
+  - '$initial#name#bfm_schema_version'
+  - '$sourcesystem#id#7551c449-cdc1-413a-b81a-522186622da9'

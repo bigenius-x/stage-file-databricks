@@ -1,0 +1,76 @@
+id: '3269bb7f-024c-4b25-9084-6fe4d7476863'
+name: 'PRODUCTIONORDERLINE'
+modelObjectTypeId: '95e356a3-8e38-4e44-a496-abb805f556b7'
+terms:
+  - id: '6bea2bd0-d9bf-42d7-b124-c4fc24544f42'
+    name: 'PRODUCTIONORDER_ID'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 38
+      scale: 0
+  - id: '4b3611c3-31ab-40af-9127-6709425bfee7'
+    name: 'LINE_NO'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 38
+      scale: 0
+  - id: '27e8368c-2c71-491f-8cf4-52b13ee9cff2'
+    name: 'ITEM_ID'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 38
+      scale: 0
+  - id: '88a11f23-9a47-40ca-be19-813859e74c55'
+    name: 'UOM'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: 'abaf4204-141e-475b-9989-8dccf3d2bfa5'
+    name: 'QTY'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 18
+      scale: 4
+  - id: 'b935502b-5a85-45a7-a54d-fd03a66baeab'
+    name: 'dt'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+tags:
+  - '$discovery#id#54e63d5d-fd2d-466a-81c4-a3df48eba553'
+  - '$initial#name#productionorderline'
+  - '$sourcesystem#id#7551c449-cdc1-413a-b81a-522186622da9'

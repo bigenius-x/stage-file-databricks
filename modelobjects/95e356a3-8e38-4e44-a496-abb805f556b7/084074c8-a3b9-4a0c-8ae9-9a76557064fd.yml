@@ -1,0 +1,3796 @@
+id: '084074c8-a3b9-4a0c-8ae9-9a76557064fd'
+name: 'FOOD_INGREDIENTS'
+modelObjectTypeId: '95e356a3-8e38-4e44-a496-abb805f556b7'
+terms:
+  - id: 'd6da2020-e373-49bc-93b5-e5985f41d4a0'
+    name: 'FOOD_ID'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 38
+      scale: 0
+  - id: '07486cca-4348-4ba0-a4ec-407b99020ea6'
+    name: 'FOOD_NAME'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '61a91157-59ab-441f-8b9d-31723eb0ab0a'
+    name: 'CALORIES_PER_100G'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 6
+      scale: 2
+  - id: 'a1200511-18cf-4962-bd96-b773a1a90577'
+    name: 'PROTEIN_G'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: '68eef2fc-8aee-45c3-b691-d8817c5e0bef'
+    name: 'CARBOHYDRATES_G'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: 'd30f64b1-714f-4bed-b9d3-4d43214f5114'
+    name: 'FAT_G'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: 'ebe41a5d-be86-404c-bf4f-aec7423a1167'
+    name: 'FIBER_G'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: 'caf6fcf5-ef88-4018-866e-6936154f9856'
+    name: 'SUGAR_G'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: '7c299d76-20c2-46df-bad9-cca84cefe669'
+    name: 'SODIUM_MG'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 6
+      scale: 2
+  - id: '1328ef95-66c6-4259-9008-a75a990f2391'
+    name: 'VITAMIN_A_IU'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 7
+      scale: 2
+  - id: '38837766-b37b-480e-b1dc-3e9dba8b79d4'
+    name: 'VITAMIN_C_MG'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 6
+      scale: 2
+  - id: 'f1b31c5f-51ac-49c3-b455-d7e03882a7e3'
+    name: 'CALCIUM_MG'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 6
+      scale: 2
+  - id: '68f43d4c-18fb-43f6-94d4-ae6c293015e9'
+    name: 'IRON_MG'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: 'a6e2e500-cac0-4ba6-a890-1588dd457c87'
+    name: 'POTASSIUM_MG'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 6
+      scale: 2
+  - id: 'b31a1b3c-a2ac-4106-ab21-6c414ce80a83'
+    name: 'MAGNESIUM_MG'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 6
+      scale: 2
+  - id: '9fccfc1a-d9e9-4be0-8eb1-daf85bbfe152'
+    name: 'PHOSPHORUS_MG'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 6
+      scale: 2
+  - id: '4fe7159f-2f5f-4864-b14b-ea2e437ba2cf'
+    name: 'ZINC_MG'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: '74791a7a-5c1d-4345-98f7-8c209ad095d3'
+    name: 'SERVING_SIZE_G'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 6
+      scale: 2
+  - id: '64de387f-84ac-4c70-b0bf-98f1e3e25447'
+    name: 'ALLERGEN_GLUTEN'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '89015345-20ae-466d-a0d0-8dc6215d7824'
+  - id: 'fdcb82fa-060d-4b38-8723-ba2e1b379895'
+    name: 'ALLERGEN_DAIRY'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '89015345-20ae-466d-a0d0-8dc6215d7824'
+  - id: '9e2b11ef-241e-45ae-9db6-50337fb5a3e4'
+    name: 'ALLERGEN_NUTS'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '89015345-20ae-466d-a0d0-8dc6215d7824'
+  - id: '161d0e58-d03e-4a9e-8f2a-396aba77d09a'
+    name: 'ALLERGEN_SOY'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '89015345-20ae-466d-a0d0-8dc6215d7824'
+  - id: '29515bb9-3201-42e1-bcdc-ff9de07c1909'
+    name: 'ALLERGEN_EGGS'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '89015345-20ae-466d-a0d0-8dc6215d7824'
+  - id: '2b8a4cac-fadb-4c53-a2bb-3746f42c04d5'
+    name: 'ALLERGEN_FISH'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '89015345-20ae-466d-a0d0-8dc6215d7824'
+  - id: 'f5c691b5-a030-4089-90d0-72adee78c52a'
+    name: 'ALLERGEN_SHELLFISH'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '89015345-20ae-466d-a0d0-8dc6215d7824'
+  - id: '1bedba8a-1c78-45a3-a14c-58ddc431e8b6'
+    name: 'ORGANIC'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '89015345-20ae-466d-a0d0-8dc6215d7824'
+  - id: '1cb17b6e-a86b-4771-81e8-bd90b55d4310'
+    name: 'VEGAN'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '89015345-20ae-466d-a0d0-8dc6215d7824'
+  - id: '3565218a-c2a9-4484-be29-ad9918024988'
+    name: 'VEGETARIAN'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '89015345-20ae-466d-a0d0-8dc6215d7824'
+  - id: 'b2cb1300-6234-4e61-9733-f8a609bd5839'
+    name: 'KOSHER'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '89015345-20ae-466d-a0d0-8dc6215d7824'
+  - id: 'a546286f-ffb1-4e17-969e-f3a750e536f7'
+    name: 'HALAL'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '89015345-20ae-466d-a0d0-8dc6215d7824'
+  - id: 'b18846e8-b728-48ac-8b7e-b38060933476'
+    name: 'INGREDIENT_001'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: 'f5219ef2-e808-4015-b07f-593b6b99e3c8'
+    name: 'INGREDIENT_001_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: 'b4133332-5c8b-44c5-952b-44ae2e10772e'
+    name: 'INGREDIENT_002'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '3ca9d387-a86e-4164-b6dd-cf3d4f717ce7'
+    name: 'INGREDIENT_002_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: 'd74f451a-b428-42c9-bd34-c9db348acc89'
+    name: 'INGREDIENT_003'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '8e5dab21-6c17-4de5-a8f5-d9b9d06516a8'
+    name: 'INGREDIENT_003_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: '85056653-ce35-447d-9d37-664f26ae61de'
+    name: 'INGREDIENT_004'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: 'ce34ebdf-ba0a-4406-a550-e187e2a94362'
+    name: 'INGREDIENT_004_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: '8260c6cc-d5b0-45fc-8bf6-92fa1ca1414f'
+    name: 'INGREDIENT_005'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '891539c5-eef1-4e97-84e9-c20475a8e81a'
+    name: 'INGREDIENT_005_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: 'd37a6f9d-627d-4750-8082-1e5fe0089a61'
+    name: 'INGREDIENT_006'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: 'f90277b8-714e-42f6-88e1-adbf432310b5'
+    name: 'INGREDIENT_006_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: 'a140f2ba-09ba-4b35-9d31-50907ea5388a'
+    name: 'INGREDIENT_007'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '1ba1d7cc-f933-4d4c-889d-416b2d687923'
+    name: 'INGREDIENT_007_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: 'b852146f-ddbc-437f-8ef5-76ac8bd774db'
+    name: 'INGREDIENT_008'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: 'ab789e8b-a899-459c-807f-7b53fb97430c'
+    name: 'INGREDIENT_008_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: 'e2fbf4cb-7b0d-4aa9-bc3c-f2d50a96f4f9'
+    name: 'INGREDIENT_009'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: 'b13d1ca9-c015-48f1-8bc0-5377b2b97675'
+    name: 'INGREDIENT_009_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: 'd7c12a76-7d05-4b89-afb5-5fcd0101fcb9'
+    name: 'INGREDIENT_010'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: 'fe904401-32bc-42bf-ab6a-9f6187ad802a'
+    name: 'INGREDIENT_010_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: '5bca7931-f9a1-4201-a7ee-6124b6bfa6ca'
+    name: 'INGREDIENT_011'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '2385025d-2eaf-4236-b186-152392774bbd'
+    name: 'INGREDIENT_011_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: 'd8de9306-20b6-4eb9-a917-b7a7f21bc616'
+    name: 'INGREDIENT_012'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '466f2788-8952-43b1-a270-82a8866f5bfc'
+    name: 'INGREDIENT_012_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: 'a322ee06-991b-45ac-b378-5c851b067a53'
+    name: 'INGREDIENT_013'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '9928f393-6cbc-4f0f-b3ea-f0476830ba63'
+    name: 'INGREDIENT_013_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: 'dcc4f58a-0e4d-4405-ba00-3faa4e9b1f6d'
+    name: 'INGREDIENT_014'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: 'a14dc13c-da1a-4f78-b8b3-08c1348c9c10'
+    name: 'INGREDIENT_014_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: 'ed2fae14-f554-46e8-a0bd-35fbd75ff645'
+    name: 'INGREDIENT_015'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '63fcb1dd-9646-4077-8930-a0cf369728d6'
+    name: 'INGREDIENT_015_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: 'c6cf12a8-0f79-48e5-941b-979f796e7c58'
+    name: 'INGREDIENT_016'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '94cb07ac-9223-4713-8fae-c3a9230ae6d8'
+    name: 'INGREDIENT_016_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: '07a37461-8d33-476a-8125-118229747c65'
+    name: 'INGREDIENT_017'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '940097b7-84de-42dc-9f36-96414d1aa306'
+    name: 'INGREDIENT_017_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: '32cfac57-998b-499a-a150-93f4de901105'
+    name: 'INGREDIENT_018'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '95908da8-d61f-4416-aa11-b386ef218e7e'
+    name: 'INGREDIENT_018_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: 'd15ef1b0-d4c3-4695-bfdb-24fb4dd566b7'
+    name: 'INGREDIENT_019'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: 'f6bd659c-9555-440d-b855-07d5474e83ee'
+    name: 'INGREDIENT_019_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: '73319e78-9223-4247-80df-f6337f7ef27c'
+    name: 'INGREDIENT_020'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: 'ebdc15b2-914f-42b1-8019-74146bb8f670'
+    name: 'INGREDIENT_020_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: '66993c01-29b7-4b2d-b258-532131c1789a'
+    name: 'INGREDIENT_021'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: 'e63fed56-f5c4-41ec-b8d1-e46d38407e25'
+    name: 'INGREDIENT_021_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: '782b2887-29c7-4555-8f0f-86ba11bd2381'
+    name: 'INGREDIENT_022'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: 'fa8d7e7f-fe59-48b4-87b5-cbf09f696124'
+    name: 'INGREDIENT_022_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: '734a1924-eca6-4a8b-94e0-3b9e77198f49'
+    name: 'INGREDIENT_023'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '92de2969-30e5-42e6-a5a8-97c8c6b83e6a'
+    name: 'INGREDIENT_023_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: 'df0fbc08-1b05-47bd-b07d-1b82797c8242'
+    name: 'INGREDIENT_024'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '69f19a54-75e2-465b-a950-097ec4b3f2f1'
+    name: 'INGREDIENT_024_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: 'dc848392-5aae-493f-ab86-3b388e662da3'
+    name: 'INGREDIENT_025'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: 'e0736403-cfd8-4d25-bfae-d97267a9f49e'
+    name: 'INGREDIENT_025_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: '4e28c88e-1f5c-4b55-a531-4ab6ea16451f'
+    name: 'INGREDIENT_026'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: 'ff91a03b-ce58-4383-9133-38f0a097c981'
+    name: 'INGREDIENT_026_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: '3d598e5f-8ae5-423a-b80d-e169e1d56d39'
+    name: 'INGREDIENT_027'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '27a24b79-640e-49c7-a56a-5f178a7910da'
+    name: 'INGREDIENT_027_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: 'b56ebc28-8a73-44f2-8101-df39f1276cf7'
+    name: 'INGREDIENT_028'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '8be65fb7-adc1-446b-a66f-8a01b7b4653f'
+    name: 'INGREDIENT_028_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: 'f8fd4ee6-8f68-408d-bb55-153cb39b9c61'
+    name: 'INGREDIENT_029'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '6876ba5f-f2d3-4d03-9a43-36c22dab1dcb'
+    name: 'INGREDIENT_029_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: '5d19c21f-1f26-4226-a430-d457aeb4f513'
+    name: 'INGREDIENT_030'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: 'a0442e31-3d51-4afb-ba81-072e9e44bf79'
+    name: 'INGREDIENT_030_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: '24d5a2bd-b65e-4512-a4f4-f8ce42fa44e0'
+    name: 'INGREDIENT_031'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: 'b374b18d-6fb7-4d5a-b572-0dbef8c85a00'
+    name: 'INGREDIENT_031_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: 'cc02d2b8-4b58-46f5-97f8-ed045932b07c'
+    name: 'INGREDIENT_032'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '512a813b-b264-43e3-94da-2d1ec21d30d0'
+    name: 'INGREDIENT_032_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: 'a2ebdcd9-fee6-410d-b088-db9550e9998d'
+    name: 'INGREDIENT_033'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '5da8f2ae-b9ab-4fee-9905-ddd7197c7377'
+    name: 'INGREDIENT_033_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: '52595ecf-14e5-417f-9c93-595ae3ffde51'
+    name: 'INGREDIENT_034'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '740a7f4d-dc3f-4d8c-84de-1e43202369e7'
+    name: 'INGREDIENT_034_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: 'cb9c2023-6972-446a-a605-2c063f071bec'
+    name: 'INGREDIENT_035'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: 'd362057e-53a7-465c-83cd-54d49b360ddd'
+    name: 'INGREDIENT_035_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: 'fc85ac8b-1fc7-4658-aa08-9cc4d3ea3da7'
+    name: 'INGREDIENT_036'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: 'd5b6a95c-16ea-4abd-83b8-d062e0849da2'
+    name: 'INGREDIENT_036_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: 'c98d1668-8d19-492d-843f-27740b01916a'
+    name: 'INGREDIENT_037'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '2f70a9a2-3084-4972-b524-0e34e991bf2c'
+    name: 'INGREDIENT_037_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: 'b3f1161d-fa63-4f9b-9790-921ee0adf80e'
+    name: 'INGREDIENT_038'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '8022cf17-c121-4972-af86-96aeb0e938e3'
+    name: 'INGREDIENT_038_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: '7c14038b-1f4b-4e7f-a8ed-5dedd752f4a3'
+    name: 'INGREDIENT_039'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '19448931-c8a4-467f-b607-6b577040456f'
+    name: 'INGREDIENT_039_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: '06fee9ec-fe45-4e8e-97ed-be99c5d82a16'
+    name: 'INGREDIENT_040'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: 'a7eeef21-d4e4-4013-92ac-31206f427e1a'
+    name: 'INGREDIENT_040_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: '68c575d3-478b-4b76-992b-af12fccce758'
+    name: 'INGREDIENT_041'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: 'f3d77e56-6184-47b3-b5aa-5b173cb3de53'
+    name: 'INGREDIENT_041_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: '32a4b08c-72ce-47f0-9bc8-c5cd0e63fac9'
+    name: 'INGREDIENT_042'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '66944b4a-5467-4be5-8bcf-00a749a81048'
+    name: 'INGREDIENT_042_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: '98c04223-d761-4fa6-bfdb-bd4488000e73'
+    name: 'INGREDIENT_043'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '75614eae-e133-4504-86cc-9b197a12122a'
+    name: 'INGREDIENT_043_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: '0dc303e2-fa8d-43f8-9b81-2323c8d30283'
+    name: 'INGREDIENT_044'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '92901919-5aff-4e56-af2e-c73b2e06fa9a'
+    name: 'INGREDIENT_044_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: '535c3fef-fb75-4705-9ede-3e978f66b108'
+    name: 'INGREDIENT_045'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: 'f93d4a4b-88ac-4056-b831-f1d92fbaca24'
+    name: 'INGREDIENT_045_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: '70f4b7c0-af6d-493a-9b2d-e9abd6287df8'
+    name: 'INGREDIENT_046'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '2cd2acc8-09a0-4982-a347-8e289ecb6d89'
+    name: 'INGREDIENT_046_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: '8b1284fa-5b43-4cd8-971b-7821fc9a8475'
+    name: 'INGREDIENT_047'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: 'd230ac28-7eef-453d-863a-d77405219f71'
+    name: 'INGREDIENT_047_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: 'c56e3d2c-ef8e-4af2-95ac-b30647adf0ce'
+    name: 'INGREDIENT_048'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: 'd4132a5f-4781-488d-b120-4163fa071787'
+    name: 'INGREDIENT_048_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: '51728055-5652-4594-8bf8-ab1cbb04a6a6'
+    name: 'INGREDIENT_049'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '37d19f46-ceef-476a-9a46-fed3298fd3bd'
+    name: 'INGREDIENT_049_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: '572dfe92-9f13-4954-ab8f-62fbb56408e1'
+    name: 'INGREDIENT_050'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '06fa69be-1c5b-42ae-b841-618a30b0edd2'
+    name: 'INGREDIENT_050_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: '22b1cec9-990f-4876-96d2-d5f794a7a720'
+    name: 'INGREDIENT_051'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '80add6d1-be76-49ca-9d82-f1eb9622b042'
+    name: 'INGREDIENT_051_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: '751c1b6a-16fb-4129-a0f7-374e0b25d53f'
+    name: 'INGREDIENT_052'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '41d5f9b0-e933-4f97-974e-a6d05f61f789'
+    name: 'INGREDIENT_052_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: '4ff03320-bb86-46ff-b090-516aa3aac634'
+    name: 'INGREDIENT_053'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '837a2a74-8db5-471a-a3e6-56e7f8bfa737'
+    name: 'INGREDIENT_053_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: 'f88524d8-d74f-463e-96af-0b9615f46b27'
+    name: 'INGREDIENT_054'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '380b7229-801c-44bf-a00a-344f10f6500b'
+    name: 'INGREDIENT_054_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: '08d34c6e-69c8-41fa-80fe-c3c367413b2e'
+    name: 'INGREDIENT_055'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '5ae5877b-f1fc-4c6c-a1df-d22f84ff1757'
+    name: 'INGREDIENT_055_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: 'f506c31c-6b96-4770-8d01-290bc2337e03'
+    name: 'INGREDIENT_056'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '14c407df-8e4e-41cd-8043-8a22ba593839'
+    name: 'INGREDIENT_056_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: 'ca1fbd4e-3be0-4512-8585-afd7e4e88d29'
+    name: 'INGREDIENT_057'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '4fd6d8d7-995f-48b0-80df-1a3441754c7a'
+    name: 'INGREDIENT_057_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: '9870970e-a526-426f-9d63-af6c8cebc5e1'
+    name: 'INGREDIENT_058'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '0470e204-e94f-4dd7-a94a-7b4485b0ceb5'
+    name: 'INGREDIENT_058_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: '09db098e-7e78-44b7-98b3-84f6c7db31d3'
+    name: 'INGREDIENT_059'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '40f7d35f-7dac-49d0-a131-7054a5dd7609'
+    name: 'INGREDIENT_059_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: '2c713260-b384-43e6-aead-c5780c106918'
+    name: 'INGREDIENT_060'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: 'a238d074-ab19-4c8e-8995-c2f52ad8d2bd'
+    name: 'INGREDIENT_060_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: '1920dfd0-8715-4de9-a16f-72d7a379a1b6'
+    name: 'INGREDIENT_061'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: 'c92a5fbb-8852-4852-9beb-92b8d166b20f'
+    name: 'INGREDIENT_061_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: '7a34a388-94db-44c2-b543-d2a30e29ed16'
+    name: 'INGREDIENT_062'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '08946a16-bce9-4732-b44d-55f6e5394031'
+    name: 'INGREDIENT_062_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: '0ae01adb-1daf-4c6d-aeb0-3000f2ba5c3c'
+    name: 'INGREDIENT_063'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '012f882e-abb3-474f-af1a-525aa1a8f30c'
+    name: 'INGREDIENT_063_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: '49c737b8-7e21-4ab8-817a-3179d56e10f6'
+    name: 'INGREDIENT_064'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: 'f9f44606-f64e-487e-bc7c-d3d109a0ff2d'
+    name: 'INGREDIENT_064_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: 'a1008623-fa9e-4430-a44a-12c5d5dac658'
+    name: 'INGREDIENT_065'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '94420ebe-c759-4122-b317-4db1ca8cdbad'
+    name: 'INGREDIENT_065_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: '956857fc-c02c-452d-b43b-a0183ea1291b'
+    name: 'INGREDIENT_066'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '6e279e41-98d1-4c61-9829-5dc11c5d3d10'
+    name: 'INGREDIENT_066_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: '03207b46-2561-41d9-bf58-c02494fe69ad'
+    name: 'INGREDIENT_067'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: 'a19f4e8b-4f4f-4a66-90fc-5e56a17fafe4'
+    name: 'INGREDIENT_067_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: '75d851b9-004b-408f-b0a7-a4c91b9465ee'
+    name: 'INGREDIENT_068'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: 'd93a5fec-b9da-49b7-919d-9d435383a4ab'
+    name: 'INGREDIENT_068_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: '1328f3fd-a755-46d1-92ac-ac80ad436aed'
+    name: 'INGREDIENT_069'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: 'e2501ec3-e7cb-4432-81c8-ed01b3223c06'
+    name: 'INGREDIENT_069_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: '0077e52c-9327-45af-940d-a2ba2c81683b'
+    name: 'INGREDIENT_070'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '5c445c70-83cd-4e87-a115-ed49255559a8'
+    name: 'INGREDIENT_070_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: 'e7368ae0-6b24-4926-b849-c8b81f49dac3'
+    name: 'INGREDIENT_071'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '36dad63e-7cd8-4358-8c8f-679927b89e04'
+    name: 'INGREDIENT_071_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: '9f750618-c883-4605-9897-03790bd87486'
+    name: 'INGREDIENT_072'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '16eb7a10-3ca5-46af-bada-7dff6bda456c'
+    name: 'INGREDIENT_072_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: 'eee8a419-eb88-4062-9914-a80a8eac0200'
+    name: 'INGREDIENT_073'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '312d8afb-8f2d-4e86-92ca-2d05225628d0'
+    name: 'INGREDIENT_073_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: '04baa6fc-4f40-4f57-98c7-1f9b49bcc5d5'
+    name: 'INGREDIENT_074'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: 'a3de9f6c-0850-4a1c-906f-10f8d6f917ea'
+    name: 'INGREDIENT_074_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: '79914ff2-af16-49e0-9695-4218bd5b4ca9'
+    name: 'INGREDIENT_075'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '8948198b-1312-4c90-b3d1-881e7b351aa3'
+    name: 'INGREDIENT_075_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: '79895f62-fca5-4251-bdb1-e85a8121001c'
+    name: 'INGREDIENT_076'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '18902d20-36aa-4974-a043-f6b0b73c8e8e'
+    name: 'INGREDIENT_076_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: '7a0dd45b-3b09-4bc5-bb50-6438c28fe85c'
+    name: 'INGREDIENT_077'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '57ffaabc-7ac0-4f03-a82d-005eb90bd0b2'
+    name: 'INGREDIENT_077_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: '4bd5e4fc-7e3a-4eb1-9abe-5c00c30a099a'
+    name: 'INGREDIENT_078'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '1282e754-0cb1-47f8-87af-a805ddf6617e'
+    name: 'INGREDIENT_078_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: '537d4909-7297-4a79-a146-6c7d5a02f1d8'
+    name: 'INGREDIENT_079'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '3609d603-cb27-4fde-9f04-92e5d2ef8943'
+    name: 'INGREDIENT_079_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: 'bb70179b-6f6b-44a1-ba3f-9938c41b1c3a'
+    name: 'INGREDIENT_080'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '93033815-1417-4730-b8d2-a22c533cbb01'
+    name: 'INGREDIENT_080_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: '1f179f92-7ce3-46b2-8586-1f50e32121e2'
+    name: 'INGREDIENT_081'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '90f09e50-8d5b-4e37-99b3-38d15c7c253e'
+    name: 'INGREDIENT_081_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: '38487889-3c7e-4d41-98dc-4e631c5dbede'
+    name: 'INGREDIENT_082'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: 'ec306672-abb6-4b99-bdab-dc36c85957da'
+    name: 'INGREDIENT_082_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: 'a86bdbc4-8de3-4846-a956-8dfad81971ed'
+    name: 'INGREDIENT_083'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '507cca68-8b67-4102-bacb-56a107d3ee86'
+    name: 'INGREDIENT_083_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: '7e9b8165-db63-438a-8d6f-9748e3c3e271'
+    name: 'INGREDIENT_084'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: 'e4b89b5f-ad72-4bcc-87a6-a7663ba812d0'
+    name: 'INGREDIENT_084_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: '8ca9f68e-651a-4e1a-8edc-574e5ebadaaa'
+    name: 'INGREDIENT_085'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '1340d78d-d176-42da-99d6-b7154a497c81'
+    name: 'INGREDIENT_085_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: '6db0f2b8-2743-488a-a27a-becd434d2561'
+    name: 'INGREDIENT_086'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: 'c457ddaf-b737-4291-8693-0876bc536d54'
+    name: 'INGREDIENT_086_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: '5cf8f627-008b-4fc0-9fdd-4f99109b7fe1'
+    name: 'INGREDIENT_087'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '282dfe3a-6d25-4bd3-9601-f287ec07be04'
+    name: 'INGREDIENT_087_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: '066ba2d5-55f0-49cc-a51f-c93bac021b69'
+    name: 'INGREDIENT_088'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: 'db0e3808-043a-4e90-89f1-ba68b4bc3fa4'
+    name: 'INGREDIENT_088_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: '9a0a0720-3e29-4093-9b28-b314dadbd40b'
+    name: 'INGREDIENT_089'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: 'bde01fc5-3c4c-4a50-9380-f22534c3db0d'
+    name: 'INGREDIENT_089_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: 'f964e1b0-fc2c-4970-bcdf-93800b814185'
+    name: 'INGREDIENT_090'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '53f63696-9eda-41d0-be55-3daeb90aeaf4'
+    name: 'INGREDIENT_090_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: 'd1062c74-6e82-4ce0-a4d8-417da501beea'
+    name: 'INGREDIENT_091'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: 'fb5ea24f-8f0a-40fc-bec6-f1598ce97c97'
+    name: 'INGREDIENT_091_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: '6aeb2f73-e298-472e-963b-ff19a4cf4468'
+    name: 'INGREDIENT_092'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '6fe09f3e-bc9d-4c29-a66a-9b0531a10925'
+    name: 'INGREDIENT_092_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: 'b530859a-438e-4de8-b363-386501dd2162'
+    name: 'INGREDIENT_093'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: 'ea580077-4f6c-419f-ab39-67da4ceefc78'
+    name: 'INGREDIENT_093_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: '476f7251-9c82-4cf3-b184-2efad58c6a86'
+    name: 'INGREDIENT_094'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '01cd7820-9591-4ce9-a3ba-af01ac2defdd'
+    name: 'INGREDIENT_094_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: 'b5aa69ce-ca7b-436f-bd58-5f3963a4decc'
+    name: 'INGREDIENT_095'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '2ddcfa2d-a6b3-4b2b-92ac-3138837b434e'
+    name: 'INGREDIENT_095_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: '482dd085-ab1e-4b23-a556-41db306ed269'
+    name: 'INGREDIENT_096'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '5a95b221-194b-48f4-bfb5-c751680a9576'
+    name: 'INGREDIENT_096_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: '1bd68d3d-9dd6-4a1e-b9f6-60b6dabbb891'
+    name: 'INGREDIENT_097'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '1a469a6c-5785-4174-9b47-34b1efb16bc3'
+    name: 'INGREDIENT_097_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: '79d2b29c-820d-49e4-87a2-9b6e36424b98'
+    name: 'INGREDIENT_098'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '811295b8-7a29-4e19-bd92-847b0a4dd791'
+    name: 'INGREDIENT_098_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: 'd9e69d53-8125-4e38-bc93-2aec3a67bf5b'
+    name: 'INGREDIENT_099'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: 'a4efa67e-ba03-40d3-b4ea-2b5f319f5464'
+    name: 'INGREDIENT_099_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: '36f9b3d2-225b-4c7c-a340-cb0365810d23'
+    name: 'INGREDIENT_100'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: 'a0518fc8-28d3-4de6-9303-e6b9c5b92889'
+    name: 'INGREDIENT_100_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: '380b91e9-c618-4f27-bd9b-18bb02b24f10'
+    name: 'INGREDIENT_101'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '1aafe29a-44a9-4abc-b4b5-c7cdae634abb'
+    name: 'INGREDIENT_101_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: 'e741ec81-7ad7-4d03-8354-2bd4e9ddafde'
+    name: 'INGREDIENT_102'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '78798c2c-ce74-4eaf-97da-c74fd92e8b69'
+    name: 'INGREDIENT_102_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: '4b174fe6-9388-4ea5-bb40-b006515d8071'
+    name: 'INGREDIENT_103'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '15e8f7ff-75b1-4988-b912-0757fd1859e2'
+    name: 'INGREDIENT_103_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: '9e0ffb64-508b-46ba-8a63-508891216769'
+    name: 'INGREDIENT_104'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: 'f8bdd31e-f6b1-43bc-94c7-de6b4cac75f1'
+    name: 'INGREDIENT_104_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: 'acd8a455-e87e-4ad6-8802-808022336d47'
+    name: 'INGREDIENT_105'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: 'bec65005-89ba-4626-8795-101a738f9c33'
+    name: 'INGREDIENT_105_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: 'ee78e839-74f1-4c21-8ddb-8c236fcb441a'
+    name: 'INGREDIENT_106'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '3950f8cb-a094-4b87-82c4-0f538702bdc2'
+    name: 'INGREDIENT_106_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: '81f38e8a-17a7-4513-a2b8-2c3a28a945e0'
+    name: 'INGREDIENT_107'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '546b0693-c1af-4b20-8883-a097c9d859de'
+    name: 'INGREDIENT_107_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: '79cff6ae-57e0-4141-9859-f5cd0470a322'
+    name: 'INGREDIENT_108'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: 'e9d87749-6862-4b85-b9ef-f2879b19dc0f'
+    name: 'INGREDIENT_108_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: '6831ef4a-ca29-4584-b6f0-9eaf36a84e81'
+    name: 'INGREDIENT_109'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '8e34d15f-f341-4103-b368-113184b9da62'
+    name: 'INGREDIENT_109_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: '9ef98428-7c0a-4a1e-a793-6a5f90c02afd'
+    name: 'INGREDIENT_110'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '1b2860c3-b4b5-4432-a448-3dfb96170c83'
+    name: 'INGREDIENT_110_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: '4567c767-3774-4c37-b601-0322b63fc3c8'
+    name: 'INGREDIENT_111'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '5292eadf-2d7b-43cb-86c4-319a174a72ce'
+    name: 'INGREDIENT_111_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: '663ab2aa-146a-417b-8dac-b74aca50f448'
+    name: 'INGREDIENT_112'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '1ccd1489-ee6a-4340-a50a-615e02c03728'
+    name: 'INGREDIENT_112_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: '5ff77c85-8268-43e0-aa85-9a8d281baa11'
+    name: 'INGREDIENT_113'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '2711180f-4489-47b4-9641-43e42bc67a9a'
+    name: 'INGREDIENT_113_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: '45996dec-9376-42df-98ce-0066afd97674'
+    name: 'INGREDIENT_114'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '13e45332-4015-460a-92b3-c1c564d2835f'
+    name: 'INGREDIENT_114_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: 'a21a3672-ac2f-43ae-a0f7-792d95d4fe89'
+    name: 'INGREDIENT_115'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '135e3480-0c2b-4aed-9d18-c4bbe775bbc5'
+    name: 'INGREDIENT_115_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: '471b6fcb-efc9-4014-8934-fa4ee3b449cf'
+    name: 'INGREDIENT_116'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: 'd39a8c62-7b4e-44cd-9d10-ac1f6d14d066'
+    name: 'INGREDIENT_116_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: 'bdf240ea-0427-45bb-ba29-c1fd19002e00'
+    name: 'INGREDIENT_117'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '839f1111-cfae-4d91-a790-c9d3f0308a0a'
+    name: 'INGREDIENT_117_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: 'aff4bd27-c8ac-4ab5-b327-eaa8ebeff93c'
+    name: 'INGREDIENT_118'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: 'de6f6e36-43e0-4e83-aae5-81ebfa8d0216'
+    name: 'INGREDIENT_118_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: '39a1c326-aa45-457d-a902-8bab486220f1'
+    name: 'INGREDIENT_119'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '7a297cbc-ca18-4c80-808f-ac0fa3ff9843'
+    name: 'INGREDIENT_119_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: '485d63d3-06aa-4aba-8c7d-15cc3cdd63c7'
+    name: 'INGREDIENT_120'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '7157ded2-8252-43bc-b2f6-e6829e9161de'
+    name: 'INGREDIENT_120_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: '9b1241ce-1f52-4390-9fb3-2b94d5105dd3'
+    name: 'INGREDIENT_121'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: 'af24a849-eb95-4d6d-a826-f5aa92520245'
+    name: 'INGREDIENT_121_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: '00d68e8e-3039-49cf-9510-5370b9adf777'
+    name: 'INGREDIENT_122'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '7ca5c0a6-39f9-427c-ab52-793aa2f246e3'
+    name: 'INGREDIENT_122_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: 'e851b327-eb44-4c76-8dec-192f70a8bdd9'
+    name: 'INGREDIENT_123'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: 'f2d488f9-6cf3-4b50-b8ab-5b4f663f0bfe'
+    name: 'INGREDIENT_123_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: '7d0d4a49-d09f-4d06-bb4b-e8a4c9786571'
+    name: 'INGREDIENT_124'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '14933468-cc21-4ba3-a8c7-023d0e33a0a1'
+    name: 'INGREDIENT_124_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: 'bd64e78d-7cb5-4de8-af22-68776f3fa55a'
+    name: 'INGREDIENT_125'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '00fbdef8-289c-4df1-9166-c806134a6d05'
+    name: 'INGREDIENT_125_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: 'cdd648a6-3f0c-4000-ace3-c47d2ad5b9fd'
+    name: 'INGREDIENT_126'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '51bb3451-1c9e-4c3a-9a3f-e751cd50aa5d'
+    name: 'INGREDIENT_126_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: '0cdc3e82-5b88-43f0-b5ad-d95e9f04d258'
+    name: 'INGREDIENT_127'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '2ee521c3-2a23-41cf-86e7-57fe14011f1e'
+    name: 'INGREDIENT_127_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: 'a97f7c38-7182-4d05-a1cf-48ed3248256b'
+    name: 'INGREDIENT_128'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '6d3ebf7d-254d-4880-8b7d-a65b6668bdda'
+    name: 'INGREDIENT_128_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: 'eb11225b-de95-4956-bad5-8c7693bcaaf9'
+    name: 'INGREDIENT_129'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '175f1843-4986-4fa9-8852-fb7601183da9'
+    name: 'INGREDIENT_129_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: '11235572-3474-406c-915e-d1f235c1d6bf'
+    name: 'INGREDIENT_130'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '3eb1b0dd-23fb-4578-b320-948942e69d31'
+    name: 'INGREDIENT_130_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: '1400bc0d-4fdb-4092-9fcf-92461e261524'
+    name: 'INGREDIENT_131'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '7ac4c5d4-b229-4f49-94df-339cca01d258'
+    name: 'INGREDIENT_131_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: '575136bc-9c7d-48a8-b0b5-330c1a92eb77'
+    name: 'INGREDIENT_132'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: 'f6c1d7be-b9bc-485e-89bc-bdc9a685db1a'
+    name: 'INGREDIENT_132_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: '7e51913e-a57d-4f76-a93a-c130b2909b68'
+    name: 'INGREDIENT_133'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: 'bd7efc8e-2176-4f63-8726-87504d581587'
+    name: 'INGREDIENT_133_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: '8ba9a8ab-8807-47df-99cc-e9f3fe9a0c80'
+    name: 'INGREDIENT_134'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: 'cf71ad0d-a96e-42af-996d-6b35a571eb82'
+    name: 'INGREDIENT_134_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: 'aab3906d-58f9-45ab-b7f3-b8cbc57c0f2e'
+    name: 'INGREDIENT_135'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '549d332e-e39c-4249-bb36-a12d70b19edd'
+    name: 'INGREDIENT_135_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: '8fa850a6-d849-403d-9652-7c597e163e38'
+    name: 'INGREDIENT_136'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '37214f08-f7c6-4f29-b950-05226c600baa'
+    name: 'INGREDIENT_136_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: 'b0a9f1ee-631f-43a6-8073-483b0ccbecff'
+    name: 'INGREDIENT_137'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '5ed38819-74c8-4725-98f1-b070b266cde0'
+    name: 'INGREDIENT_137_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: 'eb6cf986-ee11-4aad-8f99-5f8adedc6026'
+    name: 'INGREDIENT_138'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '6b02b991-5813-417a-b6bc-448187e3e400'
+    name: 'INGREDIENT_138_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: 'a0580a89-8481-475e-bd6e-b621de7b4976'
+    name: 'INGREDIENT_139'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '4b09d28b-ccbb-4b15-bfe9-347c833d0fc6'
+    name: 'INGREDIENT_139_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: 'b2b7fa34-b3bb-4f43-9ab1-daabb39f0edc'
+    name: 'INGREDIENT_140'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: 'ed8568da-94bd-4273-bccd-f98b897180ea'
+    name: 'INGREDIENT_140_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: '4958c5ab-c378-4c08-bb7f-6a2b1ae5628d'
+    name: 'INGREDIENT_141'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '6c6d7913-1db4-40bc-a03b-bbe00161d7d0'
+    name: 'INGREDIENT_141_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: 'de0f7aa0-d3c4-41ec-a9f3-d045c0f8e789'
+    name: 'INGREDIENT_142'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '0be9d695-577b-422e-a004-452f45cac858'
+    name: 'INGREDIENT_142_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: '87f7ae3f-320b-4ca4-b6d5-d3069c7d948c'
+    name: 'INGREDIENT_143'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '8d6b84ac-41cf-461d-8260-f2ffa5b8b11b'
+    name: 'INGREDIENT_143_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: '6c0142a6-2788-4967-bca9-2be2d8cc8624'
+    name: 'INGREDIENT_144'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '45168f52-0f82-4f5c-9c98-f1d057ae5967'
+    name: 'INGREDIENT_144_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: 'a67caa3d-ba46-4922-8674-4e97332ba171'
+    name: 'INGREDIENT_145'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '641e3b57-2fb0-4e4a-8a99-1791c76a966c'
+    name: 'INGREDIENT_145_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: 'a0ad0f22-ab6c-4308-a196-da0632db7708'
+    name: 'INGREDIENT_146'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: 'b796e5bd-38b2-4302-8bac-8b8eae6c1a50'
+    name: 'INGREDIENT_146_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: 'b8b13ba7-53bc-42f0-956d-0e4071b1bd18'
+    name: 'INGREDIENT_147'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '3af0ab9b-dd4d-48fe-b06d-7f1aa11648f8'
+    name: 'INGREDIENT_147_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: '92371c49-8968-4b89-a512-39e6ad9eba40'
+    name: 'INGREDIENT_148'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '4771a150-eefa-4f60-baaf-58cce75257c6'
+    name: 'INGREDIENT_148_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: '39ec55cf-b79f-4e30-8a7f-223fdaf90aba'
+    name: 'INGREDIENT_149'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '69ccaae7-36b8-4c5b-ba89-d331ecbe885a'
+    name: 'INGREDIENT_149_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: 'e8b9c545-eab5-4f8f-a489-827d8ef327b2'
+    name: 'INGREDIENT_150'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '3a69cd9c-78f6-4718-b7f9-461f8de27d8d'
+    name: 'INGREDIENT_150_PERCENTAGE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 5
+      scale: 2
+  - id: 'f11b8eb5-ae5a-4557-a06b-6bbf6301f8a4'
+    name: 'COUNTRY_OF_ORIGIN'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: 'd111b46a-7f0f-4b09-8f19-6b086ab84554'
+    name: 'MANUFACTURER'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '5747024f-ef75-4a8a-842b-5eb45a921276'
+    name: 'BARCODE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '8571d3f0-ccc4-4491-8641-579d1db99d0b'
+    name: 'SHELF_LIFE_DAYS'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 38
+      scale: 0
+  - id: '4d6e2b56-e235-4fe7-beda-cdf16a7fc033'
+    name: 'STORAGE_INSTRUCTIONS'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '567209da-c29f-4c0a-ae81-9f1bb0881e30'
+    name: 'PREPARATION_INSTRUCTIONS'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: 'ad1eead7-3594-4a2e-a2b9-fc7f9f3d258e'
+    name: 'PACKAGING_TYPE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: 'd8591a93-6930-4d11-9ad8-5f3dcf834894'
+    name: 'PACKAGING_RECYCLABLE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '89015345-20ae-466d-a0d0-8dc6215d7824'
+  - id: 'a516b41c-1fe8-4f32-99ff-91ecc4bf34fa'
+    name: 'CERTIFICATION_ORGANIC'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '9f181e3c-29c9-4451-80bc-1c913ef9df94'
+    name: 'CERTIFICATION_FAIRTRADE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: 'd628a727-bb54-4bca-9b18-62167c87a961'
+    name: 'CERTIFICATION_NON_GMO'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: 'b0775171-0434-450e-aa90-42955f19eee3'
+    name: 'PRICE_PER_UNIT'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 8
+      scale: 2
+  - id: '314f4074-7c98-4617-a814-9a11796f1845'
+    name: 'CURRENCY'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: 'd73a011c-9465-42a1-8804-2c095256684f'
+    name: 'LAST_UPDATED'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '214f4959-56df-4f38-b8c2-703c0890e8ae'
+  - id: '4d56dbb1-4df3-42f1-b178-cf4e65a32277'
+    name: 'dt'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+tags:
+  - '$discovery#id#54e63d5d-fd2d-466a-81c4-a3df48eba553'
+  - '$initial#name#food_ingredients'
+  - '$sourcesystem#id#7551c449-cdc1-413a-b81a-522186622da9'

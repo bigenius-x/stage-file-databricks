@@ -1,0 +1,6817 @@
+id: '54e63d5d-fd2d-466a-81c4-a3df48eba553'
+name: 'BFM 0.96 Parquet Azure'
+appVersion: '1.3.0'
+timestamp: '2025-01-07T09:15:56+00:00'
+sourceObjects:
+  - name: 'BDC_CUSTOMER'
+    terms:
+      - name: 'BDC_SHOP_ID'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+      - name: 'BDC_CUSTOMER_ID'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+      - name: 'FIRST_NAME'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'LAST_NAME'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'DATE_OF_BIRTH'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'date'
+        sourceDataType:
+          name: 'date'
+          isNullable: true
+      - name: 'LOCATION'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'dt'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        attributes:
+          - key: 'PartitionOrder'
+            value: '1'
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+    objectType: {}
+  - name: 'BDC_EMPLOYEE'
+    terms:
+      - name: 'BDC_EMPLOYEE_ID'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 38
+          scale: 0
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 38
+          scale: 0
+      - name: 'FIRST_NAME'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+      - name: 'LAST_NAME'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+      - name: 'REMARKS'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'DATE_OF_BIRTH'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'date'
+        sourceDataType:
+          name: 'date'
+          isNullable: true
+      - name: 'HIRE_DATE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'date'
+        sourceDataType:
+          name: 'date'
+          isNullable: true
+      - name: 'PHONE_NUMBER'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'dt'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        attributes:
+          - key: 'PartitionOrder'
+            value: '1'
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+    objectType: {}
+  - name: 'BDC_ITEM_BASIC'
+    terms:
+      - name: 'ARTICLE_NUMBER'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 38
+          scale: 0
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 38
+          scale: 0
+      - name: 'PRODUCT_NAME'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'PRICE_EUR'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 10
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 10
+          scale: 2
+      - name: 'dt'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        attributes:
+          - key: 'PartitionOrder'
+            value: '1'
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+    objectType: {}
+  - name: 'BDC_ITEM_OFFER'
+    terms:
+      - name: 'ARTICLE_NUMBER'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 38
+          scale: 0
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 38
+          scale: 0
+      - name: 'PRODUCT_NAME'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'PRICE_EUR'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 10
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 10
+          scale: 2
+      - name: 'OFFER_DATE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'date'
+        sourceDataType:
+          name: 'date'
+          isNullable: true
+      - name: 'dt'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        attributes:
+          - key: 'PartitionOrder'
+            value: '1'
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+    objectType: {}
+  - name: 'BDC_ORDER'
+    terms:
+      - name: 'ORDER_ID'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 38
+          scale: 0
+        sourceDataType:
+          name: 'decimal'
+          isNullable: false
+          precision: 38
+          scale: 0
+      - name: 'SHOP_ID'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+      - name: 'CUSTOMER_ID'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+      - name: 'ORDER_DATE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'date'
+        sourceDataType:
+          name: 'date'
+          isNullable: false
+      - name: 'RESPONSIBLE_EMPLOYEE_ID'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 38
+          scale: 0
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 38
+          scale: 0
+      - name: 'ORDER_AS_FREE_TEXT'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'dt'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        attributes:
+          - key: 'PartitionOrder'
+            value: '1'
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+    objectType: {}
+  - name: 'BDC_WRITTEN_OFF_GOODS'
+    terms:
+      - name: 'YEAR'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 38
+          scale: 0
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 38
+          scale: 0
+      - name: 'MONTH'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 38
+          scale: 0
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 38
+          scale: 0
+      - name: 'DAY'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 38
+          scale: 0
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 38
+          scale: 0
+      - name: 'WRITTEN_OFF_EUR'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 18
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 18
+          scale: 2
+      - name: 'REMARKS'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'dt'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        attributes:
+          - key: 'PartitionOrder'
+            value: '1'
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+    objectType: {}
+  - name: 'BFM_SCHEMA_VERSION'
+    terms:
+      - name: 'VERSION_NUMBER'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+      - name: 'VERSION_DATE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'date'
+        sourceDataType:
+          name: 'date'
+          isNullable: false
+      - name: 'CHANGES'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+      - name: 'REMARKS'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'dt'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        attributes:
+          - key: 'PartitionOrder'
+            value: '1'
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+    objectType: {}
+  - name: 'BRANCH'
+    terms:
+      - name: 'BRANCH_ID'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 38
+          scale: 0
+        sourceDataType:
+          name: 'decimal'
+          isNullable: false
+          precision: 38
+          scale: 0
+      - name: 'BRANCH_NAME'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+      - name: 'MARKET_SIZE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+      - name: 'LOCATION_SINCE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 38
+          scale: 0
+        sourceDataType:
+          name: 'decimal'
+          isNullable: false
+          precision: 38
+          scale: 0
+      - name: 'RETAIL_SPACE_M2'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 38
+          scale: 0
+        sourceDataType:
+          name: 'decimal'
+          isNullable: false
+          precision: 38
+          scale: 0
+      - name: 'ARTICLE_NUMBER_APPROX'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 38
+          scale: 0
+        sourceDataType:
+          name: 'decimal'
+          isNullable: false
+          precision: 38
+          scale: 0
+      - name: 'ADDRESS_LINE1'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'ADDRESS_LINE2'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'ADDRESS_LINE3'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'ZIP_CODE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'COUNTRY'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+      - name: 'COUNTRY_ISO_CODE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'dt'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        attributes:
+          - key: 'PartitionOrder'
+            value: '1'
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+    objectType: {}
+  - name: 'COUNTRY'
+    terms:
+      - name: 'COUNTRY_ID'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 38
+          scale: 0
+        sourceDataType:
+          name: 'decimal'
+          isNullable: false
+          precision: 38
+          scale: 0
+      - name: 'ISO_CODE_2'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+      - name: 'COUNTRY'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+      - name: 'NUMERIC_CODE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 38
+          scale: 0
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 38
+          scale: 0
+      - name: 'dt'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        attributes:
+          - key: 'PartitionOrder'
+            value: '1'
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+    objectType: {}
+  - name: 'CUSTOMER'
+    terms:
+      - name: 'CUSTOMER_ID'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 38
+          scale: 0
+        sourceDataType:
+          name: 'decimal'
+          isNullable: false
+          precision: 38
+          scale: 0
+      - name: 'CUSTOMER'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+      - name: 'CUSTOMER_TYPE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+      - name: 'CUSTOMER_SINCE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'date'
+        sourceDataType:
+          name: 'date'
+          isNullable: true
+      - name: 'ADDRESS_LINE1'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'ADDRESS_LINE2'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'ADDRESS_LINE3'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'ZIP_CODE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'COUNTRY'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'COUNTRY_ISO_CODE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'dt'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        attributes:
+          - key: 'PartitionOrder'
+            value: '1'
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+    objectType: {}
+  - name: 'CUSTOMER_DUPLICATES'
+    terms:
+      - name: 'CUSTOMER_ID'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 38
+          scale: 0
+        sourceDataType:
+          name: 'decimal'
+          isNullable: false
+          precision: 38
+          scale: 0
+      - name: 'DUPLICATE_CUSTOMER_ID'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 38
+          scale: 0
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 38
+          scale: 0
+      - name: 'dt'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        attributes:
+          - key: 'PartitionOrder'
+            value: '1'
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+    objectType: {}
+  - name: 'DEPARTMENT'
+    terms:
+      - name: 'DEPARTMENT_ID'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 38
+          scale: 0
+        sourceDataType:
+          name: 'decimal'
+          isNullable: false
+          precision: 38
+          scale: 0
+      - name: 'BRANCH_ID'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 38
+          scale: 0
+        sourceDataType:
+          name: 'decimal'
+          isNullable: false
+          precision: 38
+          scale: 0
+      - name: 'DEPARTMENT_DE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+      - name: 'DEPARTMENT_EN'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+      - name: 'dt'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        attributes:
+          - key: 'PartitionOrder'
+            value: '1'
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+    objectType: {}
+  - name: 'EMPLOYEE'
+    terms:
+      - name: 'EMPLOYEE_ID'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 38
+          scale: 0
+        sourceDataType:
+          name: 'decimal'
+          isNullable: false
+          precision: 38
+          scale: 0
+      - name: 'JOBFUNCTION_ID'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 38
+          scale: 0
+        sourceDataType:
+          name: 'decimal'
+          isNullable: false
+          precision: 38
+          scale: 0
+      - name: 'BRANCH_ID'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 38
+          scale: 0
+        sourceDataType:
+          name: 'decimal'
+          isNullable: false
+          precision: 38
+          scale: 0
+      - name: 'DEPARTMENT_ID'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 38
+          scale: 0
+        sourceDataType:
+          name: 'decimal'
+          isNullable: false
+          precision: 38
+          scale: 0
+      - name: 'MANAGER_ID'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 38
+          scale: 0
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 38
+          scale: 0
+      - name: 'IS_ACTIVE_RECORD'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 38
+          scale: 0
+        sourceDataType:
+          name: 'decimal'
+          isNullable: false
+          precision: 38
+          scale: 0
+      - name: 'LAST_NAME'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+      - name: 'FIRST_NAME'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+      - name: 'BIRTH_DATE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'date'
+        sourceDataType:
+          name: 'date'
+          isNullable: false
+      - name: 'FIRST_HIRE_DATE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'date'
+        sourceDataType:
+          name: 'date'
+          isNullable: false
+      - name: 'HIRE_START_DATE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'date'
+        sourceDataType:
+          name: 'date'
+          isNullable: false
+      - name: 'HIRE_END_DATE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'date'
+        sourceDataType:
+          name: 'date'
+          isNullable: true
+      - name: 'UPDATE_DATE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'timestamp'
+        sourceDataType:
+          name: 'timestamp'
+          isNullable: false
+      - name: 'ADDRESS_LINE1'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'ADDRESS_LINE2'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'ADDRESS_LINE3'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'ZIP_CODE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'COUNTRY'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'COUNTRY_ISO_CODE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'dt'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        attributes:
+          - key: 'PartitionOrder'
+            value: '1'
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+    objectType: {}
+  - name: 'EMPLOYEE_HIST'
+    terms:
+      - name: 'EMPLOYEE_ID'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 38
+          scale: 0
+        sourceDataType:
+          name: 'decimal'
+          isNullable: false
+          precision: 38
+          scale: 0
+      - name: 'JOBFUNCTION_ID'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 38
+          scale: 0
+        sourceDataType:
+          name: 'decimal'
+          isNullable: false
+          precision: 38
+          scale: 0
+      - name: 'BRANCH_ID'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 38
+          scale: 0
+        sourceDataType:
+          name: 'decimal'
+          isNullable: false
+          precision: 38
+          scale: 0
+      - name: 'DEPARTMENT_ID'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 38
+          scale: 0
+        sourceDataType:
+          name: 'decimal'
+          isNullable: false
+          precision: 38
+          scale: 0
+      - name: 'MANAGER_ID'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 38
+          scale: 0
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 38
+          scale: 0
+      - name: 'UPDATE_DATE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'timestamp'
+        sourceDataType:
+          name: 'timestamp'
+          isNullable: false
+      - name: 'IS_ACTIVE_RECORD'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 38
+          scale: 0
+        sourceDataType:
+          name: 'decimal'
+          isNullable: false
+          precision: 38
+          scale: 0
+      - name: 'LAST_NAME'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+      - name: 'FIRST_NAME'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+      - name: 'BIRTH_DATE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'date'
+        sourceDataType:
+          name: 'date'
+          isNullable: false
+      - name: 'FIRST_HIRE_DATE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'date'
+        sourceDataType:
+          name: 'date'
+          isNullable: false
+      - name: 'HIRE_START_DATE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'date'
+        sourceDataType:
+          name: 'date'
+          isNullable: false
+      - name: 'HIRE_END_DATE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'date'
+        sourceDataType:
+          name: 'date'
+          isNullable: true
+      - name: 'ADDRESS_LINE1'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'ADDRESS_LINE2'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'ADDRESS_LINE3'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'ZIP_CODE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'COUNTRY'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'COUNTRY_ISO_CODE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'dt'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        attributes:
+          - key: 'PartitionOrder'
+            value: '1'
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+    objectType: {}
+  - name: 'FOOD_INGREDIENTS'
+    terms:
+      - name: 'FOOD_ID'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 38
+          scale: 0
+        sourceDataType:
+          name: 'decimal'
+          isNullable: false
+          precision: 38
+          scale: 0
+      - name: 'FOOD_NAME'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'CALORIES_PER_100G'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 6
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 6
+          scale: 2
+      - name: 'PROTEIN_G'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'CARBOHYDRATES_G'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'FAT_G'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'FIBER_G'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'SUGAR_G'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'SODIUM_MG'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 6
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 6
+          scale: 2
+      - name: 'VITAMIN_A_IU'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 7
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 7
+          scale: 2
+      - name: 'VITAMIN_C_MG'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 6
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 6
+          scale: 2
+      - name: 'CALCIUM_MG'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 6
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 6
+          scale: 2
+      - name: 'IRON_MG'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'POTASSIUM_MG'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 6
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 6
+          scale: 2
+      - name: 'MAGNESIUM_MG'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 6
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 6
+          scale: 2
+      - name: 'PHOSPHORUS_MG'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 6
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 6
+          scale: 2
+      - name: 'ZINC_MG'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'SERVING_SIZE_G'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 6
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 6
+          scale: 2
+      - name: 'ALLERGEN_GLUTEN'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'boolean'
+        sourceDataType:
+          name: 'boolean'
+          isNullable: true
+      - name: 'ALLERGEN_DAIRY'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'boolean'
+        sourceDataType:
+          name: 'boolean'
+          isNullable: true
+      - name: 'ALLERGEN_NUTS'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'boolean'
+        sourceDataType:
+          name: 'boolean'
+          isNullable: true
+      - name: 'ALLERGEN_SOY'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'boolean'
+        sourceDataType:
+          name: 'boolean'
+          isNullable: true
+      - name: 'ALLERGEN_EGGS'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'boolean'
+        sourceDataType:
+          name: 'boolean'
+          isNullable: true
+      - name: 'ALLERGEN_FISH'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'boolean'
+        sourceDataType:
+          name: 'boolean'
+          isNullable: true
+      - name: 'ALLERGEN_SHELLFISH'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'boolean'
+        sourceDataType:
+          name: 'boolean'
+          isNullable: true
+      - name: 'ORGANIC'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'boolean'
+        sourceDataType:
+          name: 'boolean'
+          isNullable: true
+      - name: 'VEGAN'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'boolean'
+        sourceDataType:
+          name: 'boolean'
+          isNullable: true
+      - name: 'VEGETARIAN'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'boolean'
+        sourceDataType:
+          name: 'boolean'
+          isNullable: true
+      - name: 'KOSHER'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'boolean'
+        sourceDataType:
+          name: 'boolean'
+          isNullable: true
+      - name: 'HALAL'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'boolean'
+        sourceDataType:
+          name: 'boolean'
+          isNullable: true
+      - name: 'INGREDIENT_001'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_001_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_002'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_002_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_003'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_003_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_004'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_004_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_005'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_005_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_006'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_006_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_007'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_007_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_008'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_008_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_009'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_009_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_010'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_010_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_011'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_011_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_012'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_012_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_013'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_013_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_014'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_014_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_015'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_015_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_016'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_016_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_017'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_017_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_018'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_018_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_019'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_019_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_020'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_020_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_021'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_021_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_022'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_022_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_023'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_023_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_024'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_024_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_025'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_025_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_026'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_026_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_027'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_027_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_028'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_028_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_029'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_029_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_030'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_030_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_031'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_031_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_032'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_032_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_033'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_033_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_034'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_034_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_035'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_035_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_036'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_036_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_037'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_037_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_038'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_038_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_039'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_039_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_040'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_040_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_041'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_041_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_042'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_042_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_043'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_043_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_044'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_044_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_045'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_045_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_046'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_046_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_047'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_047_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_048'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_048_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_049'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_049_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_050'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_050_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_051'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_051_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_052'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_052_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_053'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_053_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_054'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_054_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_055'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_055_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_056'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_056_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_057'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_057_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_058'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_058_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_059'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_059_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_060'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_060_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_061'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_061_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_062'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_062_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_063'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_063_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_064'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_064_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_065'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_065_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_066'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_066_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_067'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_067_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_068'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_068_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_069'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_069_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_070'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_070_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_071'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_071_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_072'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_072_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_073'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_073_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_074'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_074_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_075'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_075_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_076'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_076_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_077'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_077_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_078'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_078_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_079'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_079_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_080'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_080_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_081'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_081_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_082'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_082_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_083'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_083_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_084'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_084_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_085'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_085_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_086'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_086_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_087'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_087_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_088'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_088_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_089'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_089_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_090'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_090_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_091'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_091_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_092'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_092_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_093'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_093_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_094'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_094_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_095'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_095_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_096'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_096_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_097'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_097_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_098'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_098_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_099'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_099_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_100'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_100_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_101'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_101_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_102'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_102_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_103'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_103_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_104'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_104_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_105'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_105_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_106'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_106_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_107'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_107_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_108'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_108_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_109'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_109_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_110'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_110_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_111'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_111_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_112'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_112_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_113'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_113_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_114'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_114_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_115'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_115_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_116'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_116_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_117'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_117_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_118'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_118_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_119'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_119_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_120'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_120_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_121'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_121_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_122'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_122_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_123'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_123_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_124'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_124_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_125'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_125_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_126'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_126_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_127'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_127_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_128'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_128_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_129'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_129_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_130'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_130_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_131'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_131_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_132'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_132_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_133'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_133_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_134'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_134_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_135'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_135_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_136'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_136_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_137'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_137_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_138'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_138_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_139'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_139_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_140'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_140_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_141'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_141_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_142'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_142_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_143'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_143_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_144'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_144_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_145'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_145_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_146'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_146_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_147'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_147_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_148'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_148_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_149'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_149_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'INGREDIENT_150'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'INGREDIENT_150_PERCENTAGE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 5
+          scale: 2
+      - name: 'COUNTRY_OF_ORIGIN'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'MANUFACTURER'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'BARCODE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'SHELF_LIFE_DAYS'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 38
+          scale: 0
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 38
+          scale: 0
+      - name: 'STORAGE_INSTRUCTIONS'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'PREPARATION_INSTRUCTIONS'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'PACKAGING_TYPE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'PACKAGING_RECYCLABLE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'boolean'
+        sourceDataType:
+          name: 'boolean'
+          isNullable: true
+      - name: 'CERTIFICATION_ORGANIC'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'CERTIFICATION_FAIRTRADE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'CERTIFICATION_NON_GMO'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'PRICE_PER_UNIT'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 8
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 8
+          scale: 2
+      - name: 'CURRENCY'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'LAST_UPDATED'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'timestamp'
+        sourceDataType:
+          name: 'timestamp'
+          isNullable: true
+      - name: 'dt'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        attributes:
+          - key: 'PartitionOrder'
+            value: '1'
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+    objectType: {}
+  - name: 'ITEM'
+    terms:
+      - name: 'ITEM_ID'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 38
+          scale: 0
+        sourceDataType:
+          name: 'decimal'
+          isNullable: false
+          precision: 38
+          scale: 0
+      - name: 'EAN13'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'FOOD_ID'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 38
+          scale: 0
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 38
+          scale: 0
+      - name: 'SUPPLIER_ID'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 38
+          scale: 0
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 38
+          scale: 0
+      - name: 'DESCRIPTION'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+      - name: 'SALES_PRICE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 18
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: false
+          precision: 18
+          scale: 2
+      - name: 'PER_QUANTITY'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 18
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 18
+          scale: 2
+      - name: 'UOM'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'dt'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        attributes:
+          - key: 'PartitionOrder'
+            value: '1'
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+    objectType: {}
+  - name: 'JOBFUNCTION'
+    terms:
+      - name: 'JOBFUNCTION_ID'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 38
+          scale: 0
+        sourceDataType:
+          name: 'decimal'
+          isNullable: false
+          precision: 38
+          scale: 0
+      - name: 'JOBFUNCTION_DE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+      - name: 'JOBFUNCTION_EN'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+      - name: 'INSERT_TIMESTAMP_TZ'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'timestamp'
+        sourceDataType:
+          name: 'timestamp'
+          isNullable: false
+      - name: 'UPDATE_TIMESTAMP_TZ'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'timestamp'
+        sourceDataType:
+          name: 'timestamp'
+          isNullable: false
+      - name: 'INSERT_TIMESTAMP_NTZ'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'timestamp'
+        sourceDataType:
+          name: 'timestamp'
+          isNullable: false
+      - name: 'UPDATE_TIMESTAMP_NTZ'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'timestamp'
+        sourceDataType:
+          name: 'timestamp'
+          isNullable: false
+      - name: 'dt'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        attributes:
+          - key: 'PartitionOrder'
+            value: '1'
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+    objectType: {}
+  - name: 'KITCHEN'
+    terms:
+      - name: 'KITCHEN_ID'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 38
+          scale: 0
+        sourceDataType:
+          name: 'decimal'
+          isNullable: false
+          precision: 38
+          scale: 0
+      - name: 'BRANCH_ID'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 38
+          scale: 0
+        sourceDataType:
+          name: 'decimal'
+          isNullable: false
+          precision: 38
+          scale: 0
+      - name: 'KITCHEN'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+      - name: 'dt'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        attributes:
+          - key: 'PartitionOrder'
+            value: '1'
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+    objectType: {}
+  - name: 'LOYALTYCARD'
+    terms:
+      - name: 'LOYALTYCARD_ID'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 38
+          scale: 0
+        sourceDataType:
+          name: 'decimal'
+          isNullable: false
+          precision: 38
+          scale: 0
+      - name: 'CARD_NUMBER'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 38
+          scale: 0
+        sourceDataType:
+          name: 'decimal'
+          isNullable: false
+          precision: 38
+          scale: 0
+      - name: 'CUSTOMER_ID'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 38
+          scale: 0
+        sourceDataType:
+          name: 'decimal'
+          isNullable: false
+          precision: 38
+          scale: 0
+      - name: 'VALID_FROM'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'date'
+        sourceDataType:
+          name: 'date'
+          isNullable: false
+      - name: 'VALID_TO'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'date'
+        sourceDataType:
+          name: 'date'
+          isNullable: false
+      - name: 'IS_ACTIVE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'boolean'
+        sourceDataType:
+          name: 'boolean'
+          isNullable: false
+      - name: 'dt'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        attributes:
+          - key: 'PartitionOrder'
+            value: '1'
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+    objectType: {}
+  - name: 'PHONENUMBER'
+    terms:
+      - name: 'PHONENUMBER_ID'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 38
+          scale: 0
+        sourceDataType:
+          name: 'decimal'
+          isNullable: false
+          precision: 38
+          scale: 0
+      - name: 'FOREIGN_KEY_ID'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 38
+          scale: 0
+        sourceDataType:
+          name: 'decimal'
+          isNullable: false
+          precision: 38
+          scale: 0
+      - name: 'PHONE_NUMBER_TYPE_CODE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+      - name: 'PHONE_NUMBER'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+      - name: 'dt'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        attributes:
+          - key: 'PartitionOrder'
+            value: '1'
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+    objectType: {}
+  - name: 'POS'
+    terms:
+      - name: 'POS_ID'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 38
+          scale: 0
+        sourceDataType:
+          name: 'decimal'
+          isNullable: false
+          precision: 38
+          scale: 0
+      - name: 'BRANCH_ID'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 38
+          scale: 0
+        sourceDataType:
+          name: 'decimal'
+          isNullable: false
+          precision: 38
+          scale: 0
+      - name: 'CASHBOX_NO'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 38
+          scale: 0
+        sourceDataType:
+          name: 'decimal'
+          isNullable: false
+          precision: 38
+          scale: 0
+      - name: 'dt'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        attributes:
+          - key: 'PartitionOrder'
+            value: '1'
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+    objectType: {}
+  - name: 'PRODUCTIONORDER'
+    terms:
+      - name: 'PRODUCTIONORDER_ID'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 38
+          scale: 0
+        sourceDataType:
+          name: 'decimal'
+          isNullable: false
+          precision: 38
+          scale: 0
+      - name: 'KITCHEN_ID'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 38
+          scale: 0
+        sourceDataType:
+          name: 'decimal'
+          isNullable: false
+          precision: 38
+          scale: 0
+      - name: 'EMPLOYEE_ID'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 38
+          scale: 0
+        sourceDataType:
+          name: 'decimal'
+          isNullable: false
+          precision: 38
+          scale: 0
+      - name: 'PROD_DATE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'date'
+        sourceDataType:
+          name: 'date'
+          isNullable: false
+      - name: 'dt'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        attributes:
+          - key: 'PartitionOrder'
+            value: '1'
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+    objectType: {}
+  - name: 'PRODUCTIONORDERLINE'
+    terms:
+      - name: 'PRODUCTIONORDER_ID'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 38
+          scale: 0
+        sourceDataType:
+          name: 'decimal'
+          isNullable: false
+          precision: 38
+          scale: 0
+      - name: 'LINE_NO'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 38
+          scale: 0
+        sourceDataType:
+          name: 'decimal'
+          isNullable: false
+          precision: 38
+          scale: 0
+      - name: 'ITEM_ID'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 38
+          scale: 0
+        sourceDataType:
+          name: 'decimal'
+          isNullable: false
+          precision: 38
+          scale: 0
+      - name: 'UOM'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+      - name: 'QTY'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 18
+          scale: 4
+        sourceDataType:
+          name: 'decimal'
+          isNullable: false
+          precision: 18
+          scale: 4
+      - name: 'dt'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        attributes:
+          - key: 'PartitionOrder'
+            value: '1'
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+    objectType: {}
+  - name: 'PURCHASEPRICE'
+    terms:
+      - name: 'ITEM_ID'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 38
+          scale: 0
+        sourceDataType:
+          name: 'decimal'
+          isNullable: false
+          precision: 38
+          scale: 0
+      - name: 'SUPPLIER_ID'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 38
+          scale: 0
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 38
+          scale: 0
+      - name: 'PURCHASE_PRICE_EUR'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 18
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: false
+          precision: 18
+          scale: 2
+      - name: 'PER_QUANTITY'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 18
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 18
+          scale: 2
+      - name: 'UOM'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'VALID_FROM'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'timestamp'
+        sourceDataType:
+          name: 'timestamp'
+          isNullable: false
+      - name: 'VALID_TO'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'timestamp'
+        sourceDataType:
+          name: 'timestamp'
+          isNullable: true
+      - name: 'dt'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        attributes:
+          - key: 'PartitionOrder'
+            value: '1'
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+    objectType: {}
+  - name: 'SALESHEAD'
+    terms:
+      - name: 'INVOICE_NO'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+      - name: 'BRANCH_ID'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 38
+          scale: 0
+        sourceDataType:
+          name: 'decimal'
+          isNullable: false
+          precision: 38
+          scale: 0
+      - name: 'LOYALTYCARD_ID'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 38
+          scale: 0
+        sourceDataType:
+          name: 'decimal'
+          isNullable: false
+          precision: 38
+          scale: 0
+      - name: 'DELIVERY_DATE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'date'
+        sourceDataType:
+          name: 'date'
+          isNullable: false
+      - name: 'DELIVERY_TIME'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'timestamp'
+        sourceDataType:
+          name: 'timestamp'
+          isNullable: false
+      - name: 'dt'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        attributes:
+          - key: 'PartitionOrder'
+            value: '1'
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+    objectType: {}
+  - name: 'SALESLINE'
+    terms:
+      - name: 'INVOICE_NO'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+      - name: 'LINE_NO'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 38
+          scale: 0
+        sourceDataType:
+          name: 'decimal'
+          isNullable: false
+          precision: 38
+          scale: 0
+      - name: 'ITEM_ID'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 38
+          scale: 0
+        sourceDataType:
+          name: 'decimal'
+          isNullable: false
+          precision: 38
+          scale: 0
+      - name: 'DESCRIPTION'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+      - name: 'UOM'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+      - name: 'SALES_PRICE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 18
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: false
+          precision: 18
+          scale: 2
+      - name: 'REDUCTION_PERCENT'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: false
+          precision: 5
+          scale: 2
+      - name: 'QUANTITY'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 18
+          scale: 3
+        sourceDataType:
+          name: 'decimal'
+          isNullable: false
+          precision: 18
+          scale: 3
+      - name: 'SALES_AMOUNT'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 18
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: false
+          precision: 18
+          scale: 2
+      - name: 'dt'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        attributes:
+          - key: 'PartitionOrder'
+            value: '1'
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+    objectType: {}
+  - name: 'SALESTRANSACTION'
+    terms:
+      - name: 'TRANSACTION_ID'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 38
+          scale: 0
+        sourceDataType:
+          name: 'decimal'
+          isNullable: false
+          precision: 38
+          scale: 0
+      - name: 'TRANSACTION_LINE_NO'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 38
+          scale: 0
+        sourceDataType:
+          name: 'decimal'
+          isNullable: false
+          precision: 38
+          scale: 0
+      - name: 'TRANSACTION_TIME'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'timestamp'
+        sourceDataType:
+          name: 'timestamp'
+          isNullable: false
+      - name: 'POS_ID'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 38
+          scale: 0
+        sourceDataType:
+          name: 'decimal'
+          isNullable: false
+          precision: 38
+          scale: 0
+      - name: 'ITEM_ID'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 38
+          scale: 0
+        sourceDataType:
+          name: 'decimal'
+          isNullable: false
+          precision: 38
+          scale: 0
+      - name: 'CASHIER_ID'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 38
+          scale: 0
+        sourceDataType:
+          name: 'decimal'
+          isNullable: false
+          precision: 38
+          scale: 0
+      - name: 'LOYALTYCARD_ID'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 38
+          scale: 0
+        sourceDataType:
+          name: 'decimal'
+          isNullable: true
+          precision: 38
+          scale: 0
+      - name: 'SALES_PRICE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 18
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: false
+          precision: 18
+          scale: 2
+      - name: 'REDUCTION_PERCENT'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 5
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: false
+          precision: 5
+          scale: 2
+      - name: 'QUANTITY'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 18
+          scale: 3
+        sourceDataType:
+          name: 'decimal'
+          isNullable: false
+          precision: 18
+          scale: 3
+      - name: 'SALES_AMOUNT'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 18
+          scale: 2
+        sourceDataType:
+          name: 'decimal'
+          isNullable: false
+          precision: 18
+          scale: 2
+      - name: 'dt'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        attributes:
+          - key: 'PartitionOrder'
+            value: '1'
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+    objectType: {}
+  - name: 'SUPPLIER'
+    terms:
+      - name: 'SUPPLIER_ID'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'decimal'
+          precision: 38
+          scale: 0
+        sourceDataType:
+          name: 'decimal'
+          isNullable: false
+          precision: 38
+          scale: 0
+      - name: 'SUPPLIER'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+      - name: 'SUPPLIER_SINCE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'date'
+        sourceDataType:
+          name: 'date'
+          isNullable: false
+      - name: 'SUPPLIER_FOR'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+      - name: 'ADDRESS_LINE1'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'ADDRESS_LINE2'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'ADDRESS_LINE3'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'ZIP_CODE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'COUNTRY'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'COUNTRY_ISO_CODE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: true
+      - name: 'dt'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        attributes:
+          - key: 'PartitionOrder'
+            value: '1'
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+    objectType: {}
+  - name: 'UOM_CODE'
+    terms:
+      - name: 'UOM_EN'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+      - name: 'UOM_DE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+      - name: 'DESCR_EN'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+      - name: 'DESCR_DE'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+      - name: 'dt'
+        isBusinessKey: false
+        isDefaultTerm: false
+        isForeignKey: false
+        isIdentity: false
+        attributes:
+          - key: 'PartitionOrder'
+            value: '1'
+        dataType:
+          name: 'string'
+        sourceDataType:
+          name: 'string'
+          isNullable: false
+    objectType: {}
+sourceSystem:
+  type: 'Parquet'

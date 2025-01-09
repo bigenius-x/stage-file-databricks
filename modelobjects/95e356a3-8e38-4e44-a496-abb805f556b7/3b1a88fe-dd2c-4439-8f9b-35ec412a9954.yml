@@ -1,0 +1,90 @@
+id: '3b1a88fe-dd2c-4439-8f9b-35ec412a9954'
+name: 'JOBFUNCTION'
+modelObjectTypeId: '95e356a3-8e38-4e44-a496-abb805f556b7'
+terms:
+  - id: 'c4b15f6e-ddd6-4103-8a3f-4f277b3e38a5'
+    name: 'JOBFUNCTION_ID'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: 'e812a234-5ec3-418c-a5a4-413ee86a764d'
+      precision: 38
+      scale: 0
+  - id: 'eff0afa4-c712-4d1a-ae87-6f21bfa43525'
+    name: 'JOBFUNCTION_DE'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '5cf0b87b-a3d5-48ad-9e28-33ac4df5b6cf'
+    name: 'JOBFUNCTION_EN'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+  - id: '46a639a7-6d27-484d-b4fa-bb5f7f1f8372'
+    name: 'INSERT_TIMESTAMP_TZ'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: '214f4959-56df-4f38-b8c2-703c0890e8ae'
+  - id: '8481dc69-8a04-446e-aa3e-9e380ae6bdfd'
+    name: 'UPDATE_TIMESTAMP_TZ'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: '214f4959-56df-4f38-b8c2-703c0890e8ae'
+  - id: 'e9f178a5-0937-4e84-abc7-f0e9febe6718'
+    name: 'INSERT_TIMESTAMP_NTZ'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: '214f4959-56df-4f38-b8c2-703c0890e8ae'
+  - id: '5c6c9965-23f9-4b37-83a1-dc97dd2db98a'
+    name: 'UPDATE_TIMESTAMP_NTZ'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: '214f4959-56df-4f38-b8c2-703c0890e8ae'
+  - id: '1089841c-4c02-4d7f-b50a-4acac264ed6b'
+    name: 'dt'
+    hiddenInSource: false
+    hiddenInTarget: false
+    isBusinessKey: false
+    isForeignKey: false
+    isIdentity: false
+    isNullable: false
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
+tags:
+  - '$discovery#id#54e63d5d-fd2d-466a-81c4-a3df48eba553'
+  - '$initial#name#jobfunction'
+  - '$sourcesystem#id#7551c449-cdc1-413a-b81a-522186622da9'
