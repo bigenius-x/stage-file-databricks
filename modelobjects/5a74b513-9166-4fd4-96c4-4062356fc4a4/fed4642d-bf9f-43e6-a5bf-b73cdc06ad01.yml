@@ -165,6 +165,19 @@ terms:
     propertyValues:
       - propertyId: 'c9702470-4298-49b7-bc00-6f68ff0b98d7'
         value: 'true'
+  - id: '91f1bd81-8e95-40f2-a2f1-fbe528cb2c17'
+    name: 'BG_CorruptedRecord'
+    description: 'Default term, which will contain erroneous rows from csv file load'
+    defaultTermId: '0cabffda-5dbe-4578-b5ff-2b8da7cb0d11'
+    hiddenInSource: true
+    hiddenInTarget: true
+    isBusinessKey: false
+    isDefaultTerm: true
+    isForeignKey: false
+    isIdentity: false
+    isNullable: true
+    dataType:
+      platformDataTypeId: '411ce059-36cd-4df5-9d15-97057995eb76'
 dataflows:
   - id: '01f68fc9-ef52-4b90-b69b-89f2bf422df7'
     name: 'Dataflow1'
@@ -195,5 +208,6 @@ dataflows:
             termId: '1aca7fd1-941e-4993-ab47-939e1f15612a'
           - expression: '02042964-fdea-4c02-bc29-35cbacd71065.941d20e0-7952-4029-8354-1e2a46070e65'
             termId: '30579883-2b7f-4364-bd19-8bf0b3d8c52b'
+          - termId: '91f1bd81-8e95-40f2-a2f1-fbe528cb2c17'
 tags:
   - '$linkedproject#exportedHash#fbbb2d81f3baf7df661a1a89c8baeea4'
