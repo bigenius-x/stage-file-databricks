@@ -4,10 +4,11 @@ description: ''
 version: 'v1.5'
 configuration:
   id: 'biGENIUS.Implementation.Generator.Stage.Spark.Databricks.File'
-  version: '1.8.0'
+  version: '1.9.4'
 sourceSystems:
   - id: '7551c449-cdc1-413a-b81a-522186622da9'
     name: 'Blackforest Markets'
     description: ''
     activeDiscovery: '54e63d5d-fd2d-466a-81c4-a3df48eba553'
     sourceSystemTypeId: 'c5e55725-184f-4c60-a22d-70cb5d6fe513'
+propertyValues: []
